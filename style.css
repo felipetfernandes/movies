@@ -137,7 +137,7 @@ p {
 }
 
 .arrow {
-    width: 100px;
+    width: 50px;
     position: fixed;
     bottom: 50vh;
     margin-inline: 20px;
@@ -187,6 +187,16 @@ p {
     .miniature {
         float: left;
     }
+
+    .arrow {
+        width: 100px;
+    }
+}
+
+@media only screen and (max-width: 350px) {
+    picture {
+        display: none;
+    }
 }
 
 @media only screen and (max-height: 550px) {
@@ -196,5 +206,9 @@ p {
 
     h1 {
         font-size: 48px;
+    }
+
+    .details {
+        max-height: 100px;
     }
 }
