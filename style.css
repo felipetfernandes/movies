@@ -60,6 +60,13 @@ h3 {
     font-weight: 700;
     font-size: 20px;
     line-height: 19px;
+    width: 45px;
+    text-align: right;
+}
+
+.info label h3 {
+    width: 90px;
+    text-align: left;
 }
 
 label {
